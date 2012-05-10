@@ -68,7 +68,7 @@ class clientCheck
       $this->clientCarrier = 'kddi';
     }
     else if(
-      mb_ereg('SoftBank', $userAgent)
+      mb_ereg('SoftBank', $userAgent) ||
       mb_ereg('Vodafone', $userAgent) ||
       mb_ereg('J-PHONE', $userAgent)
     )
